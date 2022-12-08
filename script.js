@@ -19,7 +19,7 @@ function render(bill, tip, people) {
 
 function reset() {
   billInput.value = "";
-  peopleInput.value = "";
+  peopleInput.value = "1";
   tips.forEach((t) => {
     t.classList.remove("active");
   });
